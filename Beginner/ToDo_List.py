@@ -34,14 +34,14 @@ def edit_tasks(tasks):
         tasks[int(index)-1] = input("What's The New Task ")
 
 def save_file(tasks):
-    with open(r'C:\Users\User\Desktop\test\tasks.txt', 'w') as tasks_txt:
+    with open(r'path', 'w') as tasks_txt:
      for task in tasks:
         tasks_txt.write(task+"\n")
 
 
 def main():
-    if os.path.isfile(r'C:\Users\User\Desktop\test\tasks.txt'):
-        with open(r'C:\Users\User\Desktop\test\tasks.txt', 'r') as file:
+    if os.path.isfile(r'path'):
+        with open(r'path', 'r') as file:
             tasks = file.read().splitlines()
     else:
         tasks = []
