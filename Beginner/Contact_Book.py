@@ -90,7 +90,7 @@ def edit_contact(contacts):
 
 
 def save_contacts(contacts):
-    with open(r"C:\Users\User\Desktop\test\contact.txt","w") as file:
+    with open(r"PATH","w") as file:
          for i,names in enumerate(contacts["name"]):
              file.write(contacts["name"][i] + ":" +contacts["email"][i] + ":" +contacts["phone"][i] + "\n" )
 
@@ -100,8 +100,8 @@ def save_contacts(contacts):
 
 def main():
     contacts = {"name": [],"email": [],"phone": []}
-    if os.path.isfile(r"C:\Users\User\Desktop\test\contact.txt"):
-        with open(r"C:\Users\User\Desktop\test\contact.txt","r") as file:
+    if os.path.isfile(r"PATH"):
+        with open(r"PATH","r") as file:
             for lines in file:
                 contacts["name"].append(lines.split(":")[0])  
                 contacts["email"].append(lines.split(":")[1]) 
