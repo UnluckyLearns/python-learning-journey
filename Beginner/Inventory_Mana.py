@@ -103,14 +103,14 @@ def low_stock(inventory):
         print("No Low Stock Items Found")
 
 def save_inventory(inventory):
-    with open(r"C:\Users\User\Desktop\test\inventory.txt","w") as file:
+    with open(r"PATH","w") as file:
         for keys in inventory :
             file.write(keys + ":"+str(inventory[keys]) + "\n")
 
 def main():
     inventory = {}
-    if os.path.isfile(r"C:\Users\User\Desktop\test\inventory.txt"):
-        with open(r"C:\Users\User\Desktop\test\inventory.txt","r") as file:
+    if os.path.isfile(r"PATH"):
+        with open(r"PATH","r") as file:
             for lines in file:
                 inventory[lines.split(":")[0]] = int(lines.split(":")[1].rstrip())
     while True:
