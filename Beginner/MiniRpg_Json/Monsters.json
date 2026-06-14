@@ -1,0 +1,28 @@
+{
+    "Monsters": [
+    {
+        "Name" : "Goblin",
+        "HP" : 50,
+        "Attack" : 10,
+        "Min" : 5,
+        "Gold" : 100,
+        "Max HP":50
+    },
+    {
+        "Name" : "Skeleton",
+        "HP" : 70,
+        "Attack" : 12,
+        "Min" : 7,
+        "Gold" : 150,
+        "Max HP":70
+    },
+    {
+        "Name" : "Orc",
+        "HP" : 90,
+        "Attack" : 15,
+        "Min" : 9,
+        "Gold" : 250,
+        "Max HP":90
+    }
+    ]
+}
