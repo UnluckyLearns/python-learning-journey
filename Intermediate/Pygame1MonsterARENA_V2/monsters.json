@@ -1,0 +1,25 @@
+{
+    "Monsters": [
+        {
+            "Name": "Goblin",
+            "HP": 50,
+            "Damage": 10,
+            "Color": "green",
+            "Speed" : 1
+        },
+        {
+            "Name": "Skeleton",
+            "HP": 80,
+            "Damage": 15,
+            "Color": "white",
+            "Speed" : 2
+        },
+        {
+            "Name": "Orc",
+            "HP": 120,
+            "Damage": 20,
+            "Color": "black",
+            "Speed" : 3
+        }
+    ]
+}
