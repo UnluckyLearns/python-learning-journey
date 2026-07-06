@@ -1,0 +1,11 @@
+{
+   "Class": "Mage",
+   "Hp": 100,
+   "Max Hp": 100,
+   "Inventory": [],
+   "Attack": 17,
+   "Gold": 350,
+   "Level": 10,
+   "Deffense": 1.2,
+   "XP": 0
+}
